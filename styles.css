@@ -45,7 +45,7 @@ body{
     
 }
 
-.button{
+button{
     box-sizing: border-box;
     width: 23%;
     margin: 1%;
@@ -56,19 +56,24 @@ body{
     font-family: monospace;
 }
 
-.digits .button{
+.digits button{
     background-color: blue;
     height: 31.3%;
     
+    
 }
 
-.operators .button{
+.operators button{
     background-color: orange;
     height: 48%;
     
 }
 
-.button.zero{
+button.zero{
     width: 48%;
+    
 }
 
+button:hover{
+    opacity: 70%;
+}
