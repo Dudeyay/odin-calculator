@@ -24,6 +24,10 @@ body{
     height: 16.7%;
     background-color: white;
     margin-bottom: 3%;
+    font-size: 5vw; 
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .digits{
